@@ -1,4 +1,5 @@
 import './App.css';
+import ClassComponent from './Components/ClassComponent'
 import Ex1 from './Components/Ex1';
 import ComA from './Components/ComA';
 import React , {createContext}  from "react"
@@ -15,6 +16,9 @@ function App() {
         <ComA/>
       </LastName.Provider>
     </FirstName.Provider>
+    <hr/>
+
+    <ClassComponent/>
     </>
 
   );
