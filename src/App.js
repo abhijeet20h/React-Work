@@ -10,7 +10,7 @@ import UseStateArray from './UsestateArray/UseStateArray'
 import UseStateObject from './UseStateObjectSPREADoper/UseStateObject'
 import Todolist from './TodoList/Todolist'
 import AboutUs from './Keybee/AboutUs'
-
+import Navbar from './Keybee/Navbar'
 const FirstName = createContext();
 const LastName = createContext();
 const num = createContext();
@@ -40,7 +40,8 @@ function App() {
       <UseStateObject/>
       <hr/>
       <Todolist/> */}
-<AboutUs/>
+{/* <AboutUs/> */}
+<Navbar/>
     </>
   );
 }
