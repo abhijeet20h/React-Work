@@ -4,20 +4,20 @@ import Ex1 from "./Components/Ex1";
 import ComA from "./Components/ComA";
 import React, { createContext } from "react";
 import CompA from "./HooksComponents/CompA";
-import name from './ToggleExample/Toggle'
+// import name from './ToggleExample/Toggle'
 import Toggle from "./ToggleExample/Toggle";
 import UseStateArray from './UsestateArray/UseStateArray'
 import UseStateObject from './UseStateObjectSPREADoper/UseStateObject'
 import Todolist from './TodoList/Todolist'
 import AboutUs from './Keybee/AboutUs'
-import Navbar from './Keybee/Navbar'
+// import Navbar from './Keybee/Navbar'
 const FirstName = createContext();
 const LastName = createContext();
 const num = createContext();
 function App() {
   return (
     <>
-      {/* <Ex1 />
+       <Ex1 />
       <hr />
       <FirstName.Provider value={"React"}>
         <LastName.Provider value={"Tutorial "}>
@@ -39,9 +39,9 @@ function App() {
       <hr/>
       <UseStateObject/>
       <hr/>
-      <Todolist/> */}
-{/* <AboutUs/> */}
-<Navbar/>
+      <Todolist/> 
+<AboutUs/>
+{/* <Navbar/> */}
     </>
   );
 }
